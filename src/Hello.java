@@ -1,4 +1,5 @@
 public class Hello {
+
     public static void main(String[] args) {
         System.out.println("Hello, Jason!");
 
@@ -13,9 +14,13 @@ public class Hello {
             System.out.println("You got the high score!");
         }
 
-        int secondTopScore = 60;
+        int secondTopScore = 81;
         if (topScore > secondTopScore && topScore < 100) {
             System.out.println("Greater than second top score and less than 100");
+        }
+
+        if ((topScore > 90) || (secondTopScore <= 90)) {
+            System.out.println("Either or both of the conditions are true.");
         }
     }
 }
