@@ -3,6 +3,13 @@ package Section_16;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+/**
+ * Author: Jason D'Oyley
+ * Date: Jan 13, 2023
+ * Section 16: Basic Input & Output including java.util
+ * Topic: Exceptions
+ */
+
 public class Exceptions {
     public static void main (String[] args) {
         //int x = 98;
